@@ -50,7 +50,7 @@ jobs:
           cp --recursive --no-target-directory ./site ./_site
       - name: Téléversement des artefacts
         # Chargement automatique des artefacts à partir du répertoire './_site' par défaut
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2
   # Tâche de déploiement
   deploy:
     environment:
