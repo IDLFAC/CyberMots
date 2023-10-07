@@ -1,0 +1,50 @@
+<%#-*- coding: utf-8 -*-%>
+<!DOCTYPE html>
+<html lang="fr" class="has-navbar-fixed-top">
+  <head>
+  <%= ERB.new(File.read('vues/_entête.rhtml'), eoutvar: '_entête').result(binding) %>
+  </head>
+  <body>
+  <%= ERB.new(File.read('vues/_barre_de_nav.rhtml'), eoutvar: '_barre_de_nav').result(binding) %>
+  <section class="section">
+    <div class="container">
+      <div class="content">
+        <h1 class="title is-1">À propos</h1>
+        <% md = <<~MARKDOWN
+        ![](../images/CyberMots.svg)
+        
+        ## Pourquoi CyberMots ?
+
+        Les anglicismes envahissent notre quotidien, combattons les mauvais réflexes linguistiques qui s'installent et réapprenons à parler avec des mots français. Il est parfois difficile de le faire sans connaître le mot correct. Une fois que l'on connait le mot hexagonal, il est bien plus simple de s'efforcer à l'employé plutôt que le mot anglais qui s'était introduit dans nos habitudes. C'est pourquoi le dictionnaire CyberMots est là. Et, comme il faut bien choisir une spécialité, CyberMots s'attaque aux mots qui gravitent autour de la cybersécurité, voir un peu plus.
+
+        ## Pourquoi pas Bitoduc ?
+
+        Voyons ce que Bitoduc propose :
+
+        > […]
+        >
+        > Contrairement à ce que l’on pourrait penser, Bitoduc.fr n’a pas vocation à rassembler des traductions officielles. Les traductions que nous choisissons sont celles qui, selon nous, sont les plus (im)pertinentes.
+        >
+        > […]
+        >
+        > La préférence éditoriale s’oriente généralement sur des choix présentant une dimension humoristique, mais nous estimons que ces choix ne doivent pas se faire au détriment de la justesse des traductions.
+        >
+        > […]
+
+        Bien que Bitoduc offre des traductions intéressantes et correctes comme _bitoduc_ pour _pipeline_ ou bien _mot-croisillon_ pour _hashtag_, de nombreuses autres, si ce n'est la majorité, priorisent l'aspect humoristique, qui, bien que drôle sur le moment, ne permettront pas une utilisation quotidienne, surtout dans un environnement professionnel. Quelques exemples plus comiques qu'utiles :
+
+        - _Fuzzing_ : _Frelatage en masse_
+        - _Pull-request_ : _Demande de hissage_
+        - _Smartphone_ : _Malinphone_
+        - _USB key_ : _Mémorette_
+        - _Verbose_ : _Volubile_
+
+        Quant à lui, CyberMots, s'attache à être plus sérieux, utile et pratique.
+        MARKDOWN
+        %>
+        <%= md→html(md) %>
+      </div>
+    </div>
+  </section>
+  </body>
+</html>

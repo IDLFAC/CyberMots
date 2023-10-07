@@ -1,0 +1,21 @@
+<%#-*- coding: utf-8 -*-%>
+<!DOCTYPE html>
+<html lang="fr" class="has-navbar-fixed-top">
+  <head>
+  <%= ERB.new(File.read('vues/_entête.rhtml'), eoutvar: '_entête').result(binding) %>
+  </head>
+  <body>
+  <%= ERB.new(File.read('vues/_barre_de_nav.rhtml'), eoutvar: '_barre_de_nav').result(binding) %>
+  <section class="section">
+    <div class="container">
+      <div class="content">
+        <span class="has-text-info is-size-3" lang="en"><%= mot_meta['anglais'] %></span>
+        <span class="is-size-3"> : </span>
+        <span class="tag is-danger is-light is-normal has-tooltip-arrow has-tooltip-danger" data-tooltip="<%= abbr(mot_meta['classe']) %>"><%= mot_meta['classe'] %></span>
+        <span class="has-text-danger is-size-3" lang="fr"><%= mot_meta['français'] %></span>
+        <%= html %>
+      </div>
+    </div>
+  </section>
+  </body>
+</html>

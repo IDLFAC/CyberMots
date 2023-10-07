@@ -1,0 +1,95 @@
+<%#-*- coding: utf-8 -*-%>
+<!DOCTYPE html>
+<html lang="fr" class="has-navbar-fixed-top">
+  <head>
+  <%= ERB.new(File.read('vues/_entête.rhtml'), eoutvar: '_entête').result(binding) %>
+  </head>
+  <body>
+  <%= ERB.new(File.read('vues/_barre_de_nav.rhtml'), eoutvar: '_barre_de_nav').result(binding) %>
+  <section class="section">
+    <div class="container">
+      <div class="content">
+        <div class="has-text-centered">
+          <h2 class="title is-1" id="anglais-français">
+            <span class="has-text-info">Anglais</span>
+            <span> - </span>
+            <span class="has-text-danger">Français</span>
+          </h2>
+          <div class="tags is-centered">
+          <% lettres_a = mots_données.map { |x| x['anglais'][0].upcase }.sort.uniq %>
+          <% lettres_a.each do |lettre| %>
+            <span class="tag is-info">
+              <a class="has-text-white" href="#ang-fra-<%= lettre %>">
+                <%= lettre %>
+              </a>
+            </span>
+            <% end %>
+          </div>
+        </div>
+        <% mots_données.sort { |a,b| a['anglais'] <=> b['anglais'] }.each do |mot| %>
+          <% if(mot['anglais'][0].upcase == lettres_a.first) %>
+            <span class="tag is-info mt-6" id="ang-fra-<%= lettres_a.first %>">
+              <%= lettres_a.first %>
+            </span>
+            <% lettres_a.shift %>
+            <hr/>
+          <% end %>
+          <p>
+            <span class="has-text-info is-size-3" lang="en"><%= mot['anglais'] %></span>
+            <span class="is-size-3"> : </span>
+            <span class="tag is-danger is-light is-normal has-tooltip-arrow has-tooltip-danger" data-tooltip="<%= abbr(mot['classe']) %>"><%= mot['classe'] %></span>
+            <span class="has-text-danger is-size-3" lang="fr"><%= mot['français'] %></span>
+            <a href="<%= mot['chemin'] %>.html">
+              <span class="icon-text">
+                <span class="icon is-large">
+                  <i class="fa-solid fa-circle-info"></i>
+                </span>
+              </span>
+            </a>
+          </p>
+        <% end %>
+
+        <div class="has-text-centered">
+          <h2 class="title is-1" id="français-anglais">
+            <span class="has-text-danger">Français</span>
+            <span> - </span>
+            <span class="has-text-info">Anglais</span>
+          </h2>
+          <div class="tags is-centered">
+          <% lettres_f = mots_données.map { |x| x['français'][0].upcase }.sort.uniq %>
+          <% lettres_f.each do |lettre| %>
+            <span class="tag is-danger">
+              <a class="has-text-white" href="#fra-ang-<%= lettre %>">
+                <%= lettre %>
+              </a>
+            </span>
+            <% end %>
+          </div>
+        </div>
+        <% mots_données.sort { |a,b| a['français'] <=> b['français'] }.each do |mot| %>
+          <% if(mot['français'][0].upcase == lettres_f.first) %>
+            <span class="tag is-danger mt-6" id="fra-ang-<%= lettres_f.first %>">
+              <%= lettres_f.first %>
+            </span>
+            <% lettres_f.shift %>
+            <hr/>
+          <% end %>
+        <p>
+          <span class="tag is-danger is-light is-normal has-tooltip-arrow has-tooltip-danger" data-tooltip="<%= abbr(mot['classe']) %>"><%= mot['classe'] %></span>
+          <span class="has-text-danger is-size-3" lang="fr"><%= mot['français'] %></span>
+          <span class="is-size-3"> : </span>
+          <span class="has-text-info is-size-3" lang="en"><%= mot['anglais'] %></span>
+          <a href="<%= mot['chemin'] %>.html">
+            <span class="icon-text">
+              <span class="icon is-large">
+                <i class="fa-solid fa-circle-info"></i>
+              </span>
+            </span>
+          </a>
+        </p>
+        <% end %>
+      </div>
+    </div>
+  </section>
+  </body>
+</html>
