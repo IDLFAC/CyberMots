@@ -45,8 +45,8 @@ jobs:
       - name: Construction du site web
         # Sortie dans le répertoire './_site'.
         run: |
+          mkdir --parents ./site ./_site
           bundle exec ruby scripts/générer_site.rb
-          mkdir --parents ./_site
           cp --recursive --no-target-directory ./site ./_site
       - name: Téléversement des artefacts
         # Chargement automatique des artefacts à partir du répertoire './_site' par défaut
