@@ -19,7 +19,7 @@
           <% lettres_a = mots_données.map { |x| x['anglais'][0].upcase }.sort.uniq %>
           <% lettres_a.each do |lettre| %>
             <span class="tag is-info">
-              <a class="has-text-white" href="#ang-fra-<%= lettre %>">
+              <a class="has-text-white" href="index.html#ang-fra-<%= lettre %>">
                 <%= lettre %>
               </a>
             </span>
@@ -59,7 +59,7 @@
           <% lettres_f = mots_données.map { |x| x['français'][0].upcase }.sort.uniq %>
           <% lettres_f.each do |lettre| %>
             <span class="tag is-danger">
-              <a class="has-text-white" href="#fra-ang-<%= lettre %>">
+              <a class="has-text-white" href="index.html#fra-ang-<%= lettre %>">
                 <%= lettre %>
               </a>
             </span>

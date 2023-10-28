@@ -1,20 +1,14 @@
 # frozen_string_literal: true
 
-# native
+# Dépendances natives
 require 'erb'
 require 'json'
 require 'yaml'
 require 'fileutils'
-# third-party
+# Dépendances tierces
 require 'commonmarker'
-
-# Correction temporaire
-# https://github.com/gjtorikian/commonmarker/pull/257
-module Commonmarker
-  module Config
-    OPTIONS[:extension][:front_matter_delimiter] = ''
-  end
-end
+# Dépendances locales
+require_relative 'config'
 
 # Génère les méta-données des mots
 def génère_json

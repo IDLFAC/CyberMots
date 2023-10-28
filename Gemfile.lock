@@ -1,13 +1,13 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    commonmarker (1.0.0.pre10-x86_64-linux)
+    commonmarker (1.0.0.pre11-x86_64-linux)
 
 PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  commonmarker (= 1.0.0.pre10)
+  commonmarker (= 1.0.0.pre11)
 
 BUNDLED WITH
    2.4.10

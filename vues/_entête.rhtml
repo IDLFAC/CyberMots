@@ -2,6 +2,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>CyberMots</title>
+<%# Base des URL relatives %>
+<base href="<%= CyberMots::Config.base %>%" />
 <%# Favoricône %>
 <link rel="icon" href="images/CyberMots.svg" type="image/svg+xml">
 <%# Icone d'applciation %>
@@ -12,7 +14,12 @@
 <%# Bulmaswatch CSS (et extensions) + Font Awesome %>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/bulma-prefers-dark">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/bulma-prefers-dark@0.1.0-beta.1/css/bulma-prefers-dark.min.css">
 <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/@creativebulma/bulma-tooltip@1.2.0/dist/bulma-tooltip.min.css">
 <%# référencement %>
 <meta name="description" content="Le dictionnaire francophone de la cybersécurité" />
+<%# Open Graph %>
+<meta property="og:title" content="CyberMots" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://idlfac.github.io/CyberMots/" />
+<meta property="og:image" content="https://idlfac.github.io/CyberMots/images/CyberMots.svg" />
