@@ -27,7 +27,7 @@ digital footprint|empreinte numérique
 
 ## justification
 
-- [Académie française - Digital](https://www.academie-francaise.fr/digital)
+- [Digital - Académie française](https://www.academie-francaise.fr/digital)
 - [Office québécois de la langue française, 2018](https://vitrinelinguistique.oqlf.gouv.qc.ca/22953/les-emprunts-a-langlais/emprunts-semantiques/emploi-deconseille-de-lemprunt-digital)
 - [numérique - Office québécois de la langue française, 2018](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8358474/numerique)
 - [numérique - Office québécois de la langue française, 2018](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8360889/numerique)
