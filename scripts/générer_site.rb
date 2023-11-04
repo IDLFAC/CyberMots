@@ -67,12 +67,14 @@ def abbr(abbrev)
   terme
 end
 
-mots_données = génère_json # aussi accessible dans les modèles
-# Génère le fichier de données JSON
-File.write('mots.json', mots_données.to_json)
-# Génère la page d’accueil et autres pages racines
-génère_pages_racines(mots_données)
-# Génère la page dédiée à chaque mot
-génère_pages_mots(mots_données)
-# Copie les images dans le dossier destination
-FileUtils.cp_r('images/', 'site/', remove_destination: true)
+if __FILE__ == $PROGRAM_NAME # si exécuté depuis l'ILC
+  mots_données = génère_json # aussi accessible dans les modèles
+  # Génère le fichier de données JSON
+  File.write('mots.json', mots_données.to_json)
+  # Génère la page d’accueil et autres pages racines
+  génère_pages_racines(mots_données)
+  # Génère la page dédiée à chaque mot
+  génère_pages_mots(mots_données)
+  # Copie les images dans le dossier destination
+  FileUtils.cp_r('images/', 'site/', remove_destination: true)
+end
