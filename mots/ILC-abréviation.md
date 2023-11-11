@@ -1,6 +1,8 @@
 ---
 anglais: CLI
+abr_anglais: Command-Line Interface
 français: ILC
+abr_français: Interface en Ligne de Commande
 classe: abr.
 chemin: ILC-abréviation
 ---

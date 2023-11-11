@@ -58,8 +58,8 @@ def génère_pages_mots(métadonnées)
   end
 end
 
-def abbr(abbrev)
-  terme = abbrev.dup
+def abr(abrev)
+  terme = abrev.dup
   dic = JSON.load_file('abréviation.json')
   dic.each do |c, v|
     terme.gsub!(c, v)

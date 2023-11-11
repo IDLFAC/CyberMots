@@ -35,10 +35,18 @@
             <hr/>
           <% end %>
           <p>
+            <% if(mot['classe'] == 'abr.') %>
+            <span class="has-text-info is-size-3 has-tooltip-arrow has-tooltip-info" lang="en" data-tooltip="<%= abr(mot['abr_anglais']) %>"><%= mot['anglais'] %></span>
+            <% else %>
             <span class="has-text-info is-size-3" lang="en"><%= mot['anglais'] %></span>
+            <% end %>
             <span class="is-size-3"> : </span>
-            <span class="tag is-danger is-light is-normal has-tooltip-arrow has-tooltip-danger" data-tooltip="<%= abbr(mot['classe']) %>"><%= mot['classe'] %></span>
+            <span class="tag is-danger is-light is-normal has-tooltip-arrow has-tooltip-danger" data-tooltip="<%= abr(mot['classe']) %>"><%= mot['classe'] %></span>
+            <% if(mot['classe'] == 'abr.') %>
+            <span class="has-text-danger is-size-3 has-tooltip-arrow has-tooltip-danger" lang="fr" data-tooltip="<%= abr(mot['abr_français']) %>"><%= mot['français'] %></span>
+            <% else %>
             <span class="has-text-danger is-size-3" lang="fr"><%= mot['français'] %></span>
+            <% end %>
             <a href="<%= mot['chemin'] %>.html">
               <span class="icon-text">
                 <span class="icon is-large">
@@ -74,19 +82,27 @@
             <% lettres_f.shift %>
             <hr/>
           <% end %>
-        <p>
-          <span class="tag is-danger is-light is-normal has-tooltip-arrow has-tooltip-danger" data-tooltip="<%= abbr(mot['classe']) %>"><%= mot['classe'] %></span>
-          <span class="has-text-danger is-size-3" lang="fr"><%= mot['français'] %></span>
-          <span class="is-size-3"> : </span>
-          <span class="has-text-info is-size-3" lang="en"><%= mot['anglais'] %></span>
-          <a href="<%= mot['chemin'] %>.html">
-            <span class="icon-text">
-              <span class="icon is-large">
-                <i class="fa-solid fa-circle-info"></i>
+          <p>
+            <span class="tag is-danger is-light is-normal has-tooltip-arrow has-tooltip-danger" data-tooltip="<%= abr(mot['classe']) %>"><%= mot['classe'] %></span>
+            <% if(mot['classe'] == 'abr.') %>
+            <span class="has-text-danger is-size-3 has-tooltip-arrow has-tooltip-danger" lang="fr" data-tooltip="<%= abr(mot['abr_français']) %>"><%= mot['français'] %></span>
+            <% else %>
+            <span class="has-text-danger is-size-3" lang="fr"><%= mot['français'] %></span>
+            <% end %>
+            <span class="is-size-3"> : </span>
+            <% if(mot['classe'] == 'abr.') %>
+            <span class="has-text-info is-size-3 has-tooltip-arrow has-tooltip-info" lang="en" data-tooltip="<%= abr(mot['abr_anglais']) %>"><%= mot['anglais'] %></span>
+            <% else %>
+            <span class="has-text-info is-size-3" lang="en"><%= mot['anglais'] %></span>
+            <% end %>
+            <a href="<%= mot['chemin'] %>.html">
+              <span class="icon-text">
+                <span class="icon is-large">
+                  <i class="fa-solid fa-circle-info"></i>
+                </span>
               </span>
-            </span>
-          </a>
-        </p>
+            </a>
+          </p>
         <% end %>
       </div>
     </div>

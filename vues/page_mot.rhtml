@@ -9,10 +9,18 @@
   <section class="section">
     <div class="container">
       <div class="content">
+        <% if(mot_meta['classe'] == 'abr.') %>
+        <span class="has-text-info is-size-3 has-tooltip-arrow has-tooltip-info" lang="en" data-tooltip="<%= abr(mot_meta['abr_anglais']) %>"><%= mot_meta['anglais'] %></span>
+        <% else %>
         <span class="has-text-info is-size-3" lang="en"><%= mot_meta['anglais'] %></span>
+        <% end %>
         <span class="is-size-3"> : </span>
-        <span class="tag is-danger is-light is-normal has-tooltip-arrow has-tooltip-danger" data-tooltip="<%= abbr(mot_meta['classe']) %>"><%= mot_meta['classe'] %></span>
+        <span class="tag is-danger is-light is-normal has-tooltip-arrow has-tooltip-danger" data-tooltip="<%= abr(mot_meta['classe']) %>"><%= mot_meta['classe'] %></span>
+        <% if(mot_meta['classe'] == 'abr.') %>
+        <span class="has-text-danger is-size-3 has-tooltip-arrow has-tooltip-danger" lang="fr" data-tooltip="<%= abr(mot_meta['abr_français']) %>"><%= mot_meta['français'] %></span>
+        <% else %>
         <span class="has-text-danger is-size-3" lang="fr"><%= mot_meta['français'] %></span>
+        <% end %>
         <%= html %>
       </div>
     </div>
