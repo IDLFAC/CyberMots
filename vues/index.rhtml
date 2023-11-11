@@ -26,7 +26,7 @@
             <% end %>
           </div>
         </div>
-        <% mots_données.sort { |a,b| a['anglais'] <=> b['anglais'] }.each do |mot| %>
+        <% mots_données.sort { |a,b| a['anglais'].upcase <=> b['anglais'].upcase }.each do |mot| %>
           <% if(mot['anglais'][0].upcase == lettres_a.first) %>
             <span class="tag is-info mt-6" id="ang-fra-<%= lettres_a.first %>">
               <%= lettres_a.first %>
@@ -66,7 +66,7 @@
             <% end %>
           </div>
         </div>
-        <% mots_données.sort { |a,b| a['français'] <=> b['français'] }.each do |mot| %>
+        <% mots_données.sort { |a,b| a['français'].upcase <=> b['français'].upcase }.each do |mot| %>
           <% if(mot['français'][0].upcase == lettres_f.first) %>
             <span class="tag is-danger mt-6" id="fra-ang-<%= lettres_f.first %>">
               <%= lettres_f.first %>
