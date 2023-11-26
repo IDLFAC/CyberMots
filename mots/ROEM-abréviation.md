@@ -25,3 +25,8 @@ chemin: ROEM-abréviation
 - [CNES](https://ceres.cnes.fr/sites/default/files/drupal/202111/default/is_211026_cnes-ceres_plaquette_br.pdf)
 - [Ministère des Armées](https://www.defense.gouv.fr/drm/actualites/renseignement-dorigine-electromagnetique-satellites-ceres-france-se-dote-dun-systeme-unique-europe)
 
+## voir aussi
+
+- [ROGÉO](ROGÉO-abréviation.html)
+- [ROIM](ROIM-abréviation.html)
+- [ROSO](ROSO-abréviation.html)

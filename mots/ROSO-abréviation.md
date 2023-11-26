@@ -24,3 +24,8 @@ chemin: ROSO-abréviation
 - [OSINT-FR](https://osintfr.com/fr/accueil/)
 - [Dictionnaire du renseignement (2018)](https://www.cairn.info/dictionnaire-du-renseignement--9782262070564-page-677.htm)
 
+## voir aussi
+
+- [ROEM](ROEM-abréviation.html)
+- [ROGÉO](ROGÉO-abréviation.html)
+- [ROIM](ROIM-abréviation.html)

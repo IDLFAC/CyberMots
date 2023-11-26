@@ -29,3 +29,9 @@ chemin: ROIM-abréviation
 - [Assiste](https://assiste.com/Encyclopedie/IMINT.html)
 - [Preligens](https://www.preligens.com/fr/produits/ai-factory)
 - [Conflits](https://www.revueconflits.com/renseignement-aviation-espace-alexis-deprau/)
+
+## voir aussi
+
+- [ROEM](ROEM-abréviation.html)
+- [ROGÉO](ROGÉO-abréviation.html)
+- [ROSO](ROSO-abréviation.html)

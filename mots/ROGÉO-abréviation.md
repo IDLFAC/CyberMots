@@ -16,3 +16,8 @@ chemin: ROGÉO-abréviation
 
 - construction logique
 
+## voir aussi
+
+- [ROEM](ROEM-abréviation.html)
+- [ROIM](ROIM-abréviation.html)
+- [ROSO](ROSO-abréviation.html)
