@@ -16,4 +16,3 @@ chemin: ROGÉO-abréviation
 
 - construction logique
 
-
