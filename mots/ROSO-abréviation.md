@@ -22,4 +22,5 @@ chemin: ROSO-abréviation
 - [Revue de Défense Nationale](https://www.defnat.com/e-RDN/vue-article.php?carticle=22666)
 - [Université de Lorraine](https://formations.univ-lorraine.fr/fr/informatique-outils-reseaux/3747-renseignement-en-sources-ouvertes-osint-et-cybersecurite.html)
 - [OSINT-FR](https://osintfr.com/fr/accueil/)
+- [Dictionnaire du renseignement (2018)](https://www.cairn.info/dictionnaire-du-renseignement--9782262070564-page-677.htm)
 
