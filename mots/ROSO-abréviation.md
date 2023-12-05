@@ -28,4 +28,5 @@ chemin: ROSO-abréviation
 
 - [ROEM](ROEM-abréviation.html)
 - [ROGÉO](ROGÉO-abréviation.html)
+- [ROHUM](ROHUM-abréviation.html)
 - [ROIM](ROIM-abréviation.html)

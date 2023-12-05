@@ -28,5 +28,6 @@ chemin: ROEM-abréviation
 ## voir aussi
 
 - [ROGÉO](ROGÉO-abréviation.html)
+- [ROHUM](ROHUM-abréviation.html)
 - [ROIM](ROIM-abréviation.html)
 - [ROSO](ROSO-abréviation.html)
