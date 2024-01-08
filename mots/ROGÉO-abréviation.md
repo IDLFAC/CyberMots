@@ -14,7 +14,7 @@ chemin: ROGÉO-abréviation
 
 ## justification
 
-- construction logique
+- construction logique de l'acronyme français à partir de l'anglais, en conservant le préfixe `RO` par homogénéité avec les autres acronymes en usage dans le renseignement
 
 ## voir aussi
 
