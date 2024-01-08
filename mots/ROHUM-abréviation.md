@@ -33,4 +33,5 @@ chemin: ROHUM-abréviation
 - [ROEM](ROEM-abréviation.html)
 - [ROGÉO](ROGÉO-abréviation.html)
 - [ROIM](ROIM-abréviation.html)
+- [ROMESI](ROMESI-abréviation.html)
 - [ROSO](ROSO-abréviation.html)

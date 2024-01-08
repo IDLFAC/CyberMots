@@ -30,3 +30,4 @@ chemin: ROSO-abréviation
 - [ROGÉO](ROGÉO-abréviation.html)
 - [ROHUM](ROHUM-abréviation.html)
 - [ROIM](ROIM-abréviation.html)
+- [ROMESI](ROMESI-abréviation.html)
