@@ -18,6 +18,7 @@ chemin: ROGÉO-abréviation
 
 ## voir aussi
 
+- [ROÉL](ROÉL-abréviation.html)
 - [ROEM](ROEM-abréviation.html)
 - [ROHUM](ROHUM-abréviation.html)
 - [ROIM](ROIM-abréviation.html)

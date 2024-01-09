@@ -12,6 +12,14 @@ chemin: ROEM-abréviation
 ---|---
 **Sig**nal **Int**elligence (**SIGINT**)|**R**enseignement d’**O**rigine **É**lectro**m**agnétique (**ROEM**)
 
+Le ROEL (_ELINT_) et le ROTÉLCO (_COMINT_) sont deux sous-catégories du ROEM (_SIGINT_).
+
+> Le renseignement mesure et signature (MASINT : Measurement and Signature Intelligence), diffère au ROEM dans le sens où il concerne les signaux émis involontairement par les systèmes adverses, comme le bruit d'un char ou la cavitation des hélices de navires. À noter que ces signaux peuvent être d'origine électromagnétique ou non.
+>
+> [Source](https://fr.wikipedia.org/wiki/Renseignement_d%27origine_%C3%A9lectromagn%C3%A9tique)
+
+LE ROEM utilise des mesures de soutien électronique (MSE).
+
 ## justification
 
 - utilisations
@@ -27,6 +35,7 @@ chemin: ROEM-abréviation
 
 ## voir aussi
 
+- [ROÉL](ROÉL-abréviation.html)
 - [ROGÉO](ROGÉO-abréviation.html)
 - [ROHUM](ROHUM-abréviation.html)
 - [ROIM](ROIM-abréviation.html)

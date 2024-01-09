@@ -12,6 +12,10 @@ chemin: ROMESI-abréviation
 ---|---
 **M**easurement **A**nd **S**ignature **Int**elligence (**MASINT**) | **R**enseignement d'**O**rigine **Me**sure et **Si**gnature (**ROMESI**)
 
+> Le renseignement mesure et signature (MASINT : Measurement and Signature Intelligence), diffère au ROEM dans le sens où il concerne les signaux émis involontairement par les systèmes adverses, comme le bruit d'un char ou la cavitation des hélices de navires. À noter que ces signaux peuvent être d'origine électromagnétique ou non.
+>
+> [Source](https://fr.wikipedia.org/wiki/Renseignement_d%27origine_%C3%A9lectromagn%C3%A9tique)
+
 ## justification
 
 - pour l'acronyme : construction logique de l'acronyme français à partir de l'anglais, en conservant le préfixe `RO` par homogénéité avec les autres acronymes en usage dans le renseignement
@@ -24,6 +28,7 @@ chemin: ROMESI-abréviation
 
 ## voir aussi
 
+- [ROÉL](ROÉL-abréviation.html)
 - [ROEM](ROEM-abréviation.html)
 - [ROGÉO](ROGÉO-abréviation.html)
 - [ROHUM](ROHUM-abréviation.html)
