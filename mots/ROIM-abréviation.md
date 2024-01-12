@@ -33,6 +33,8 @@ chemin: ROIM-abréviation
 ## voir aussi
 
 - [ROÉL](ROÉL-abréviation.html)
+- [ROÉLOp](ROÉLOp-abréviation.html)
+- [ROÉLTech](ROÉLTech-abréviation.html)
 - [ROEM](ROEM-abréviation.html)
 - [ROGÉO](ROGÉO-abréviation.html)
 - [ROHUM](ROHUM-abréviation.html)

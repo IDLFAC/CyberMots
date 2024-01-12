@@ -30,6 +30,8 @@ En français, le terme Renseignement d'Origine Électronique est utilisé, mais 
 
 ## voir aussi
 
+- [ROÉLOp](ROÉLOp-abréviation.html)
+- [ROÉLTech](ROÉLTech-abréviation.html)
 - [ROEM](ROEM-abréviation.html)
 - [ROGÉO](ROGÉO-abréviation.html)
 - [ROHUM](ROHUM-abréviation.html)
