@@ -40,4 +40,5 @@ chemin: ROIM-abréviation
 - [ROGÉO](ROGÉO-abréviation.html)
 - [ROHUM](ROHUM-abréviation.html)
 - [ROMESI](ROMESI-abréviation.html)
+- [ROSINÉ](ROSINÉ-abréviation.html)
 - [ROSO](ROSO-abréviation.html)

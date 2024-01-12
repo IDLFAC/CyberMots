@@ -38,4 +38,5 @@ En français, le terme Renseignement d'Origine Électronique est utilisé, mais 
 - [ROHUM](ROHUM-abréviation.html)
 - [ROIM](ROIM-abréviation.html)
 - [ROMESI](ROMESI-abréviation.html)
+- [ROSINÉ](ROSINÉ-abréviation.html)
 - [ROSO](ROSO-abréviation.html)

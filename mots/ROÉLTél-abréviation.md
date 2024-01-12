@@ -17,11 +17,11 @@ chemin: ROÉLTél-abréviation
 
 En français, le terme Renseignement d'Origine Électronique est utilisé, mais jamais son abréviation (ROÉL) et est souvent confondu avec le Renseignement d'Origine Électromagnétique (ROEM) qui est sa catégorie parente.
 
-Le ROÉLTél (_TelELINT_) est une sous-catégorie du ROÉL (_ELINT_).
+Le ROÉLTél (_TelELINT_) (déprécié en faveur de ROSINÉ (_FISINT_)) est une sous-catégorie du ROÉL (_ELINT_).
 
 ## utilisations
 
-Voir [ROÉL](ROÉL-abréviation.html).
+Voir [ROÉL](ROÉL-abréviation.html) et [ROSINÉ](ROSINÉ-abréviation.html).
 
 ## voir aussi
 
@@ -33,4 +33,5 @@ Voir [ROÉL](ROÉL-abréviation.html).
 - [ROHUM](ROHUM-abréviation.html)
 - [ROIM](ROIM-abréviation.html)
 - [ROMESI](ROMESI-abréviation.html)
+- [ROSINÉ](ROSINÉ-abréviation.html)
 - [ROSO](ROSO-abréviation.html)
