@@ -35,6 +35,7 @@ chemin: ROIM-abréviation
 - [ROÉL](ROÉL-abréviation.html)
 - [ROÉLOp](ROÉLOp-abréviation.html)
 - [ROÉLTech](ROÉLTech-abréviation.html)
+- [ROÉLTél](ROÉLTél-abréviation.html)
 - [ROEM](ROEM-abréviation.html)
 - [ROGÉO](ROGÉO-abréviation.html)
 - [ROHUM](ROHUM-abréviation.html)

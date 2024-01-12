@@ -21,6 +21,7 @@ chemin: ROGÉO-abréviation
 - [ROÉL](ROÉL-abréviation.html)
 - [ROÉLOp](ROÉLOp-abréviation.html)
 - [ROÉLTech](ROÉLTech-abréviation.html)
+- [ROÉLTél](ROÉLTél-abréviation.html)
 - [ROEM](ROEM-abréviation.html)
 - [ROHUM](ROHUM-abréviation.html)
 - [ROIM](ROIM-abréviation.html)

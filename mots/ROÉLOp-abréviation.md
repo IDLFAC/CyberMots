@@ -17,7 +17,7 @@ chemin: ROÉLOp-abréviation
 
 En français, le terme Renseignement d'Origine Électronique est utilisé, mais jamais son abréviation (ROÉL) et est souvent confondu avec le Renseignement d'Origine Électromagnétique (ROEM) qui est sa catégorie parente.
 
-Le ROÉLOp (_TOpELINT_) est une sous-catégorie du ROÉL (_ELINT_).
+Le ROÉLOp (_OpELINT_) est une sous-catégorie du ROÉL (_ELINT_).
 
 ## utilisations
 
@@ -27,6 +27,7 @@ Voir [ROÉL](ROÉL-abréviation.html).
 
 - [ROÉL](ROÉL-abréviation.html)
 - [ROÉLTech](ROÉLTech-abréviation.html)
+- [ROÉLTél](ROÉLTél-abréviation.html)
 - [ROEM](ROEM-abréviation.html)
 - [ROGÉO](ROGÉO-abréviation.html)
 - [ROHUM](ROHUM-abréviation.html)

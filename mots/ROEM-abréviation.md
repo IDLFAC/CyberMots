@@ -38,6 +38,7 @@ LE ROEM utilise des mesures de soutien électronique (MSE).
 - [ROÉL](ROÉL-abréviation.html)
 - [ROÉLOp](ROÉLOp-abréviation.html)
 - [ROÉLTech](ROÉLTech-abréviation.html)
+- [ROÉLTél](ROÉLTél-abréviation.html)
 - [ROGÉO](ROGÉO-abréviation.html)
 - [ROHUM](ROHUM-abréviation.html)
 - [ROIM](ROIM-abréviation.html)
