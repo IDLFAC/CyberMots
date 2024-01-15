@@ -33,5 +33,6 @@ Voir [ROÉL](ROÉL-abréviation.html).
 - [ROHUM](ROHUM-abréviation.html)
 - [ROIM](ROIM-abréviation.html)
 - [ROMESI](ROMESI-abréviation.html)
+- [ROMSOC](ROMSOC-abréviation.html)
 - [ROSINÉ](ROSINÉ-abréviation.html)
 - [ROSO](ROSO-abréviation.html)

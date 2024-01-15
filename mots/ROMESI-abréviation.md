@@ -36,5 +36,6 @@ chemin: ROMESI-abréviation
 - [ROGÉO](ROGÉO-abréviation.html)
 - [ROHUM](ROHUM-abréviation.html)
 - [ROIM](ROIM-abréviation.html)
+- [ROMSOC](ROMSOC-abréviation.html)
 - [ROSINÉ](ROSINÉ-abréviation.html)
 - [ROSO](ROSO-abréviation.html)

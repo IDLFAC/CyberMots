@@ -29,4 +29,5 @@ Le ROSINÉ (_FISINT_) (remplace le ROÉLTél (_TelELINT_)) est une sous-catégor
 - [ROHUM](ROHUM-abréviation.html)
 - [ROIM](ROIM-abréviation.html)
 - [ROMESI](ROMESI-abréviation.html)
+- [ROMSOC](ROMSOC-abréviation.html)
 - [ROSO](ROSO-abréviation.html)
