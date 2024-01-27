@@ -17,3 +17,7 @@ The cybercriminal stole the salted MD5 hash code of the user's password.|Le cybe
 ## justification
 
 - [code de hachage - Office québécois de la langue française, 2019](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/12399801/code-de-hachage)
+
+## voir aussi
+
+- [fonction de hachage](fonction-de-hachage-nom.html)
