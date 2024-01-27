@@ -6,7 +6,7 @@ chemin: code-de-hachage-nom
 ---
 ## note
 
-Résultat d'une fonction de hachage cryptographique.
+Résultat d'une [fonction de hachage](fonction-de-hachage-nom.html) cryptographique.
 
 ## exemples
 
@@ -20,4 +20,6 @@ The cybercriminal stole the salted MD5 hash code of the user's password.|Le cybe
 
 ## voir aussi
 
+- [algorithme de hachage](algorithme-de-hachage-nom.html)
 - [fonction de hachage](fonction-de-hachage-nom.html)
+- [haché](haché-nom.html)

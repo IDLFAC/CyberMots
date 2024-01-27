@@ -11,7 +11,7 @@ chemin: algorithme-de-hachage-nom
 hash algorithm|algorithme de hachage
 hashing algorithm|algorithme de hachage
 
-Méthode de traitement informatique permettant de calculer une fonction de hachage.
+Méthode de traitement informatique permettant de calculer une [fonction de hachage](fonction-de-hachage-nom.html).
 
 ## exemples
 
@@ -27,3 +27,4 @@ BLAKE3 is not a password hashing algorithm, because it's designed to be fast.|BL
 
 - [code de hachage](code-de-hachage-nom.html)
 - [fonction de hachage](fonction-de-hachage-nom.html)
+- [haché](haché-nom.html)
