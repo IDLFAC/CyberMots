@@ -22,7 +22,8 @@ Définition de _digital_ :
 🇬🇧 | 🇫🇷
 ---|---
 digital transformation|transformation numérique
-fingerprint|empreinte digitale
+fingerprint|empreinte digitale (lié au doigt)
+fingerprint|empreinte numérique (lié à l'informatique)
 digital footprint|empreinte numérique
 
 ## justification
