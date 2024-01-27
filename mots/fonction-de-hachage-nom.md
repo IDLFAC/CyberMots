@@ -13,6 +13,8 @@ hash function|fonction de hachage
 cryptographic hashing function| onction de hachage cryptographique
 cryptographic hash function|fonction de hachage cryptographique
 
+Fonction mathématique qui génère un code de hachage.
+
 ## exemples
 
 🇬🇧 | 🇫🇷
@@ -27,3 +29,4 @@ BLAKE3 is a cryptographic hash function based on Bao and BLAKE2.|BLAKE3 est une 
 ## voir aussi
 
 - [code de hachage](code-de-hachage-nom.html)
+- [algorithme de hachage](algorithme-de-hachage-nom.html)
