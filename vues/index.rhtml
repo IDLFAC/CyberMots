@@ -49,11 +49,18 @@
             <% end %>
             <a href="<%= mot['chemin'] %>.html">
               <span class="icon-text">
-                <span class="icon is-large">
+                <span class="icon is-large has-text-info">
                   <i class="fa-solid fa-circle-info"></i>
                 </span>
               </span>
             </a>
+            <% if(mot['état'] == 'en construction') %>
+            <span class="icon-text has-tooltip-arrow has-tooltip-warning" data-tooltip="Page en cours de construction">
+              <span class="icon is-large has-text-warning">
+                <i class="fa-solid fa-person-digging fa-border"></i>
+              </span>
+            </span>
+            <% end %>
           </p>
         <% end %>
 
@@ -97,11 +104,18 @@
             <% end %>
             <a href="<%= mot['chemin'] %>.html">
               <span class="icon-text">
-                <span class="icon is-large">
+                <span class="icon is-large has-text-info">
                   <i class="fa-solid fa-circle-info"></i>
                 </span>
               </span>
             </a>
+            <% if(mot['état'] == 'en construction') %>
+            <span class="icon-text has-tooltip-arrow has-tooltip-warning" data-tooltip="Page en cours de construction">
+              <span class="icon is-large has-text-warning">
+                <i class="fa-solid fa-person-digging fa-border"></i>
+              </span>
+            </span>
+            <% end %>
           </p>
         <% end %>
       </div>

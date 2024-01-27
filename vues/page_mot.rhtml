@@ -21,6 +21,13 @@
         <% else %>
         <span class="has-text-danger is-size-3" lang="fr"><%= mot_meta['français'] %></span>
         <% end %>
+        <% if(mot_meta['état'] == 'en construction') %>
+        <span class="icon-text has-tooltip-arrow has-tooltip-warning" data-tooltip="Page en cours de construction">
+          <span class="icon is-large has-text-warning">
+            <i class="fa-solid fa-person-digging fa-border"></i>
+          </span>
+        </span>
+        <% end %>
         <%= html %>
       </div>
     </div>
