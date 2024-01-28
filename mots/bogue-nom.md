@@ -17,3 +17,7 @@ The software crashes because there's a bug.|Le logiciel plante car il y a un bog
 - [bogue - Institut Canadien des Comptables Agréés, 2006](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/500972/bogue)
 - [bogue - Commission d'enrichissement de la langue française (France), FranceTerme, 2000](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26537724/bogue)
 - [bogue - FranceTerme](https://www.culture.fr/franceterme/terme/INFO89)
+
+## voir aussi
+
+- [débogueur](débogueur-nom.html)
