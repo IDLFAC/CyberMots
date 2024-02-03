@@ -22,4 +22,5 @@ Note : l'Office québécois de la langue française le traduit par [harponnage](
 ## voir aussi
 
 - [hameçonnage](hameçonnage-nom.html)
+- [hameçonnage par texto](hameçonnage-par-texto-nom.html)
 - [harponnage](harponnage-nom.html)

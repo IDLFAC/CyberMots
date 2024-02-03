@@ -12,4 +12,5 @@ chemin: hameçonnage-nom
 ## voir aussi
 
 - [hameçonnage ciblé](hameçonnage-ciblé-nom.html)
+- [hameçonnage par texto](hameçonnage-par-texto-nom.html)
 - [harponnage](harponnage-nom.html)

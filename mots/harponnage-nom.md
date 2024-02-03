@@ -21,3 +21,4 @@ whaling|harponnage
 
 - [hameçonnage](hameçonnage-nom.html)
 - [hameçonnage ciblé](hameçonnage-ciblé-nom.html)
+- [hameçonnage par texto](hameçonnage-par-texto-nom.html)
