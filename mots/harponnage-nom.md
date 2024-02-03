@@ -15,6 +15,7 @@ whaling|harponnage
 ## justification
 
 - [harponnage - FranceTerme](https://www.culture.fr/franceterme/terme/JURI71)
+- [Commission d'enrichissement de la langue française (France), FranceTerme, 2021](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26559972/harponnage)
 
 ## voir aussi
 
