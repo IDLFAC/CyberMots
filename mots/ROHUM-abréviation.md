@@ -30,6 +30,7 @@ chemin: ROHUM-abréviation
 
 ## voir aussi
 
+- [ROC](ROC-abréviation.html)
 - [ROÉL](ROÉL-abréviation.html)
 - [ROÉLOp](ROÉLOp-abréviation.html)
 - [ROÉLTech](ROÉLTech-abréviation.html)

@@ -25,6 +25,7 @@ Voir [ROÉL](ROÉL-abréviation.html) et [ROSINÉ](ROSINÉ-abréviation.html).
 
 ## voir aussi
 
+- [ROC](ROC-abréviation.html)
 - [ROÉL](ROÉL-abréviation.html)
 - [ROÉLOp](ROÉLOp-abréviation.html)
 - [ROÉLTech](ROÉLTech-abréviation.html)
