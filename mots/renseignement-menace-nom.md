@@ -10,7 +10,6 @@ chemin: renseignement-menace-nom
 ---|---
 threat intelligence | renseignement sur la menace, analyse de la menace
 threat intel. | rens. sur la menace
-cyber threat intelligence (CTI) | renseignement sur les menaces cyber (RMC), renseignement sur les cybermenaces
 
 ## exemples
 
@@ -20,7 +19,7 @@ Threat intelligence is information about potential attacks an organization may f
 
 ## justification
 
-[Analyse de la menace - ANSSI](https://www.ssi.gouv.fr/entreprise/principales-menaces/analyse-de-la-menace/)
+- [Analyse de la menace - ANSSI](https://www.ssi.gouv.fr/entreprise/principales-menaces/analyse-de-la-menace/)
 
 ## utilisations
 
@@ -29,3 +28,7 @@ Threat intelligence is information about potential attacks an organization may f
 - [renseignement sur les menaces - Sekoia](https://www.sekoia.io/fr/glossaire/quest-ce-que-la-cti/)
 - [renseignement sur les menaces - Microsoft](https://learn.microsoft.com/fr-fr/azure/sentinel/understand-threat-intelligence)
 - [renseignement sur les menaces cyber - XMCO](https://www.xmco.fr/cyber-threat-intelligence-fr/cyber-threat-intelligence-tout-savoir/)
+
+## voir aussi
+
+- [renseignement d'intérêt cyber (RIC)](RIC-abréviation.html)
