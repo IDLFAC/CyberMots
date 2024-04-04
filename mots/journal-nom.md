@@ -13,6 +13,7 @@ event logs|journaux d'évènements
 machine log|journal machine
 error log|journal d'erreur
 access log|journal d'accès
+change log|journal des modifications
 
 ## exemples
 
