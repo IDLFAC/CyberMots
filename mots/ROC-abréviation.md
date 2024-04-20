@@ -14,6 +14,13 @@ chemin: ROC-abréviation
 
 ⚠️ Ne pas confondre avec le [Renseignement d'Intérêt Cyber (RIC)](RIC-abréviation.html).
 
+## synonymes
+
+🇬🇧 | 🇫🇷
+---|---
+cyber intelligence | renseignement cyber
+cybint | rens. cyber, cyber rens.
+
 ## justification
 
 - [renseignement d'origine cyber - Sénat Français](https://www.senat.fr/rap/r19-506/r19-50639.html)
