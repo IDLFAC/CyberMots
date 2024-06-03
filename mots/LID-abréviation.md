@@ -11,3 +11,6 @@ chemin: LID-abréviation
 
 - [lutte informatique défensive - FranceTerme](https://www.culture.fr/franceterme/terme/DEFE892)
 
+## voir aussi
+
+- [LIO](LIO-abréviation.html)
