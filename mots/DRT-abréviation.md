@@ -5,7 +5,6 @@ français: DRT
 abr_français: Détection et Réponse sur les Terminaux
 classe: abr.
 chemin: DRT-abréviation
-état: en construction
 ---
 ## note
 
