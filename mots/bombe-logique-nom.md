@@ -10,7 +10,7 @@ chemin: bombe-logique-nom
 🇬🇧 | 🇫🇷
 ---|---
 logic bomb|bombe logique
-logic bomb|bombe programmée
+_"_|bombe programmée
 
 ## justification
 
