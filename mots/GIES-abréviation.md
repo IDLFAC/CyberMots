@@ -32,4 +32,4 @@ chemin: GIES-abréviation
 
 ## voir aussi
 
-en construction
+- [GIS](GIS-abréviation.html)
