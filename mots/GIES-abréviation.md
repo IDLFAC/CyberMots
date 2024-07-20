@@ -33,3 +33,4 @@ chemin: GIES-abréviation
 ## voir aussi
 
 - [GIS](GIS-abréviation.html)
+- [GES](GES-abréviation.html)
