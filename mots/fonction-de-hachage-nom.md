@@ -10,7 +10,7 @@ chemin: fonction-de-hachage-nom
 ---|---
 hashing function|fonction de hachage
 hash function|fonction de hachage
-cryptographic hashing function| onction de hachage cryptographique
+cryptographic hashing function|fonction de hachage cryptographique
 cryptographic hash function|fonction de hachage cryptographique
 
 Fonction mathématique qui génère un [code de hachage](code-de-hachage-nom.html).
