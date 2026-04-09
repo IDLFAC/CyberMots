@@ -11,5 +11,5 @@ chemin: détournepôt-nom
 ---|---
 repository hijacking|détournement de dépôt
 repojacking|détournepôt
-_"_|fdépônement
+_"_|dépônement
 
